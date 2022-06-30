@@ -1,0 +1,65 @@
+.meals{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.meal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+   
+}
+
+.addCart{
+    text-align: center;
+    color: #4FB767;
+    background-color: white;
+    border:1px solid #4FB767;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px 20px;
+}
+.mealImg{
+    width: 100%;
+    border-radius: 10px;
+}
+.mealName{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+.imageBadge{
+    position: relative;
+    text-align: center;
+    
+}
+.priceBadge{
+   background-color: #F9F9F9  ;
+   padding: 8px;
+   border-radius: 20px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 1;
+}
+
+.downNav{
+    padding: 10px;
+    margin: 0;
+   
+    background-color: white;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
